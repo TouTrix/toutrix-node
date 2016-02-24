@@ -20,5 +20,8 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/TouTrix/toutrix-node/issues"
+  },
+  "dependencies": {
+    "async": "~1.5.2"
   }
 }

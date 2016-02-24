@@ -1,6 +1,8 @@
+..DO NOT UPDATE THIS FILE FOR THE MOMENT..
+
 First, thanks for reading.
 
-I'm Eric. 36 years old. I began this project because I always worked on project alone. I
+I'm Eric. I began this project because I always worked on project alone. I
 also have so much ideas than I had to find the best way to realize all of them. And this
 project came to life.
 
@@ -10,10 +12,22 @@ You will see, at first, new codes will be using Google technologies. Because we 
 there and we do not plan to move for the moment. It make sense to use Google because we can
 focus on coding.
 
+This README is also some notes for myself to remember. Of course, we will need a documentation
+structure. For the moment, I'm writing everything I can here.
+
 Project architecture
 
 services/ - This is where the magic begin. If we want to reuse any other module, we should
             add a service to configure the module. A service can use other service.
+            
+
+I'm coming soon with a first service as an example.
+
+
+UI framework
+
+I choosed ExtJS for the administrative panel. I hope my father will try to contribute to this project as
+he his using ExtJS for his payroll application.
             
             
 

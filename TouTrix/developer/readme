@@ -12,5 +12,8 @@ focus on coding.
 
 Project architecture
 
-Coming soon.  
+services/ - This is where the magic begin. If we want to reuse any other module, we should
+            add a service to configure the module. A service can use other service.
+            
+            
 

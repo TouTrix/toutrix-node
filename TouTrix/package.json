@@ -22,6 +22,7 @@
     "url": "https://github.com/TouTrix/toutrix-node/issues"
   },
   "dependencies": {
-    "async": "~1.5.2"
+    "async": "~1.5.2",
+    "express": "~4.13.4"
   }
 }

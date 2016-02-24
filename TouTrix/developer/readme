@@ -6,28 +6,63 @@ I'm Eric. I began this project because I always worked on project alone. I
 also have so much ideas than I had to find the best way to realize all of them. And this
 project came to life.
 
-TouTrix is a fun project. We want to reuse all other codes to make a better world.
+TouTrix is a fun project. We want to reuse all other codes to make a better world. If something exist,
+we use it. Or we reuse it.
+
+NodeJS have tons of module and what they do, they do it well. This project can grow very fast with
+all these almost perfect modules. 
 
 You will see, at first, new codes will be using Google technologies. Because we are hosted
 there and we do not plan to move for the moment. It make sense to use Google because we can
-focus on coding.
+focus on coding. We should always think the application should ALWAYS be able to scale on demand.
 
 This README is also some notes for myself to remember. Of course, we will need a documentation
 structure. For the moment, I'm writing everything I can here.
+
+I like standard. Everytime we can, we should use standard so everyone else can expect the things
+to be done this way.
 
 Project architecture
 
 services/ - This is where the magic begin. If we want to reuse any other module, we should
             add a service to configure the module. A service can use other service.
+models/   - We should never repeat the information. If a model exist, use it. We have a tons of
+            models. Make a search before creating a new one.
             
 
-I'm coming soon with a first service as an example.
+Services
 
+An example of service is a web server, like Apache or ExpressJS. Another example is a database. Or an API.
 
-UI framework
+ 
 
-I choosed ExtJS for the administrative panel. I hope my father will try to contribute to this project as
-he his using ExtJS for his payroll application.
+AngularJS framework
+
+I choose to adopt AngularJS as the main web framework and use a lot of partial to render a webpage.
+
+Learn and Understand AngularJS - The First 50 Minutes
+http://toutrix.com/videos/ejBkOjEG6F0/Learn%20and%20Understand%20AngularJS%20-%20The%20First%2050%20Minutes?q=angularjs            
+
             
-            
+Locale
 
+I have no solution yet of what to use to display in the good language. Got a suggestion? 
+
+Test file
+
+At the time of writing, I have no experience with testing. I know they exist, but never used one.
+We need an expert here.
+
+First service
+
+It's the first time I'm creating a real open source software. So I'm used to use my own config file. So like
+Wordpress would do, we must begin to setup the software. For whatever you will use our software, there
+is always a way to configure your software. Then, we need a way to save this configuration.
+
+We will then start with Google Datastore. This is where we will save the configuration of the servers/cluster.
+
+Second service
+
+It make sense to continue with an express service. We are calling it express as it will use :
+npm install express
+And we always want to have the latest code of everything.
